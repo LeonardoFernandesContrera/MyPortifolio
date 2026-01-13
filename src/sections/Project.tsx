@@ -22,7 +22,7 @@ export function Project() {
 
             <br></br>
             
-            <h4><a href="https://github.com/LeonardoFernandesContrera">View all projects</a></h4>
+            <h4><a href="https://github.com/LeonardoFernandesContrera" target="_blank" rel="noopener noreferrer">View all projects</a></h4>
         </article>
     )
 }
