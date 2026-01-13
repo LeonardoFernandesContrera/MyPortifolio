@@ -1,7 +1,7 @@
 .app {
   position: relative;
   min-height: 100vh;
-  background: #111a30;
+  background: hsl(220, 23%, 15%);
   overflow-x: hidden;
 }
 
@@ -11,12 +11,12 @@
   top: var(--y);
   left: var(--x);
   transform: translate(-50%, -50%);
-  width: 500px;
-  height: 500px;
+  width: 800px;
+  height: 800px;
   background: radial-gradient(
     circle,
-    rgba(53, 55, 114, 0.391),
-    transparent 50%
+    rgba(182, 182, 229, 0.186),
+    transparent 30%
   );
   opacity: 1;
   pointer-events: none;

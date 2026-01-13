@@ -1,0 +1,26 @@
+.project-card {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    margin-left: 6rem;
+    gap: 2rem;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-info > a > h4, .project-info > p {
+    padding: 0 6rem 0 0;
+    margin: 0;
+}
+
+.project-img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: fill;
+    border-radius: 1rem;
+    border: 2px solid grey;
+
+}

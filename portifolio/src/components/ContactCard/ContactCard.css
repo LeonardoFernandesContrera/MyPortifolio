@@ -1,0 +1,12 @@
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.list-item > a {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+}

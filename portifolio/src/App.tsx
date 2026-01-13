@@ -1,8 +1,10 @@
-import { Header } from './components/Header'
+import { Header } from './sections/Header'
 import { About } from './sections/About'
 import { useEffect } from 'react'
 import './App.css'
 import { Experience } from './sections/Experience'
+import { Project } from './sections/Project'
+import { Contact } from './sections/Contact'
 
 function App() {
   useEffect(() => {
@@ -23,6 +25,10 @@ function App() {
         <About></About>
 
         <Experience></Experience>
+
+        <Project></Project>
+        
+        <Contact></Contact>
       </body>
     </>
   )
