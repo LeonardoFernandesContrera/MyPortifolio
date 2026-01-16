@@ -5,7 +5,7 @@ export function Header(){
         <header className='article-card'>
             <h1>Leonardo Contrera</h1>
 
-            <h3>Software Developer</h3>
+            <h3>Software Engineer</h3>
         </header>
     )
 }
