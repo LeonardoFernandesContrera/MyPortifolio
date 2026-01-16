@@ -98,3 +98,19 @@ p {
     font-size: clamp(0.95rem, 1.2vw, 1.1rem);
     line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+    .project-card {
+      flex-direction: column; /* imagem em cima */
+      text-align: center;
+    }
+
+    .project-img {
+      width: 100%;
+      max-width: 320px;
+    }
+
+    p {
+      padding: 1rem;
+    }
+}
