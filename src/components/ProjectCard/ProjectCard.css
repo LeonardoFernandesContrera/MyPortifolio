@@ -2,7 +2,6 @@
     margin-top: 1rem;
     display: flex;
     align-items: center;
-    margin-left: 6rem;
     gap: 2rem;
 }
 
@@ -17,10 +16,10 @@
 }
 
 .project-img {
-    max-width: 100px;
-    max-height: 100px;
-    object-fit: fill;
     border-radius: 1rem;
-    border: 2px solid grey;
-
+    border: 0.2vw solid grey;
+    width: clamp(100px, 16vw, 200px);
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
 }
+
