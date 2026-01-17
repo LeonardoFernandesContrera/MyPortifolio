@@ -1,4 +1,6 @@
 import './ProjectCard.css'
+import '../../Shared.css'
+
 
 type ProjectCardProps = {
     image: string

@@ -2,7 +2,6 @@
     margin-top: 1rem;
     display: flex;
     align-items: center;
-    margin-left: 6rem;
     gap: 2rem;
 }
 
@@ -12,15 +11,43 @@
 }
 
 .project-info > a > h4, .project-info > p {
-    padding: 0 6rem 0 0;
+    padding: 0;
     margin: 0;
 }
 
 .project-img {
-    max-width: 100px;
-    max-height: 100px;
-    object-fit: fill;
     border-radius: 1rem;
-    border: 2px solid grey;
+    border: 0.2vw solid grey;
+    width: clamp(100px, 16vw, 200px);
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
 
+@media (max-width: 768px) {
+    .container {
+    padding: 0 16px; /* padding bem menor */
+    }
+
+    .project-card {
+        gap: 0.5rem;
+    }
+
+    .project-info > a > h4, .project-info > p {
+        padding: 0 0.5rem;
+        margin: 0;
+    }
+
+    .project {
+        flex-direction: column; /* imagem em cima */
+        text-align: center;
+    }
+
+    .project-image {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .p {
+        padding: 1rem;
+    }
 }
